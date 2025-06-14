@@ -1,0 +1,52 @@
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1, h2, p {
+    padding: 10px;
+    font-weight: normal;
+}
+
+p {
+    font-family: monospace;
+}
+
+.name {
+    font-size: 50px;
+}
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    word-wrap: break-word;
+    height: 100%;
+}
+
+.left {
+    width: 20%;
+}
+
+.right{
+    width: 30%;
+    top: 50%;
+    position: absolute;
+}
+.middle {
+    width: 50%;
+}
+
+.box{
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    position: sticky;
+    right: 50%;
+    top: 50%;
+}
