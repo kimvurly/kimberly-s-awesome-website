@@ -9,7 +9,7 @@ h1, h2, p {
     font-weight: normal;
 }
 
-p {
+p, li {
     font-family: monospace;
 }
 
@@ -17,6 +17,7 @@ p {
     font-size: 50px;
 }
 * {
+    margin:0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -30,23 +31,11 @@ p {
 
 .left {
     width: 20%;
+    position: fixed;
 }
 
-.right{
-    width: 30%;
-    top: 50%;
-    position: absolute;
-}
-.middle {
-    width: 50%;
-}
-
-.box{
-    width: 100%;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    position: sticky;
-    right: 50%;
-    top: 50%;
+.right {
+    position: relative;
+    width: 80%;
+    left: 20%;
 }
