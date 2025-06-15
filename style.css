@@ -54,6 +54,7 @@ a, a:visited {
 }
 
 .left {
+    padding-left: 15px;
     width: 20%;
     position: fixed;
 }
@@ -68,7 +69,6 @@ a, a:visited {
 
 .logo {
     padding: 10px;
-    background-color:
 }
 
 .logo img {
@@ -78,7 +78,7 @@ a, a:visited {
 .post {
     width: 98%;
     border-style: solid;
-    border-color: #b1c588;
+    border-color: #d5e4c1;
     border-width: 5px;
     border-radius: 5px;
     padding: 20px;
@@ -162,19 +162,25 @@ a, a:visited {
 
 .table_of_contents {
     background-color: #fffdf4;
-    width: 90%;
+    width: 100%;
     margin-top: 5px;
     margin-left: 5px;
     padding: 5px;
     padding-right: 10px;
     padding-bottom: 20px;
-    border-radius: 10px;
+    border-style: solid;
+    border-color: #d5e4c1;
+    border-radius: 5px;
+    border-width: 5px;
 }
 
 .box {
     background-color: #fffdf4;
-    width: 90%;
-    border-radius: 10px;
+    width: 100%;
+    border-style: solid;
+    border-color: #d5e4c1;
+    border-radius: 5px;
+    border-width: 5px;
     padding: 10px;
     margin: 5px;
     margin-bottom: 10px;
