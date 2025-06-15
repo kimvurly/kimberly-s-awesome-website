@@ -31,6 +31,7 @@ h1, h2, p {
 
 h1, h2 {
     color: #fcb4c2;
+    text-shadow: 4px 0 white, -4px 0 white, 0 4px white, 0 -4px white, 3px 3px white, -3px -3px white, -3px 3px white, 3px -3px white;
 }
 
 p, li, a {
