@@ -1,3 +1,23 @@
+body {
+    background-color: #ebf8ff;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: genty_sans;
+}
+
+@font-face {
+    font-family: phantom_sans;
+    src: url(phantom_sans.ttf)
+}
+
+@font-face {
+    font-family: genty_sans;
+    src: url(genty_sans.ttf)
+}
+
 .row:after{
     content: "";
     display: table;
@@ -9,21 +29,21 @@ h1, h2, p {
     font-weight: normal;
 }
 
-p, li {
-    font-family: monospace;
+h1, h2 {
+    color: #fcb4c2;
+}
+
+p, li, a {
+    color: #736c64;
+    font-family: phantom_sans;
 }
 
 a, a:visited {
-    color: black;
+    text-decoration: none;
 }
 
 .name {
     font-size: 50px;
-}
-* {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .column {
@@ -45,14 +65,27 @@ a, a:visited {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
+.logo {
+    padding: 10px;
+    background-color:
+}
+
+.logo img {
+    width: 100%;
+}
+
 .post {
     width: 98%;
     border-style: solid;
-    border-color: black;
+    border-color: #b1c588;
+    border-width: 5px;
+    border-radius: 5px;
     padding: 20px;
     margin: 10px;
     overflow: auto;
     position: relative;
+    background-color: #fffdf4;
 }
 
 .img_container_buldak {
@@ -62,6 +95,18 @@ a, a:visited {
 }
 
 .img_container_buldak img {
+    width: 31%;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#album_covers.img_container {
+    position: relative;
+    width: 100%;
+}
+
+#album_covers.img_container img {
     width: 31%;
     margin: 10px;
     border-radius: 10px;
@@ -115,19 +160,34 @@ a, a:visited {
     margin-top: 20px;
 }
 
+.table_of_contents {
+    background-color: #fffdf4;
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
 .box {
-    width: fit-content;
-    border-style: solid;
-    border-color: black;
-    padding: 20px;
-    margin: 10px;
-    margin-top: 30px;
+    background-color: #fffdf4;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
     position: relative;
+}
+
+.box h1 {
+    padding: 0;
+    background-color:unset;
 }
 
 .box p {
     padding: 0px;
-    margin: 10px;
 }
 
 .box .img_container img {
@@ -140,6 +200,7 @@ a, a:visited {
 .box .img_container {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
     left: 50%;
     position: relative;
     transform: translateX(-50%);
