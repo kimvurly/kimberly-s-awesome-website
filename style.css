@@ -46,12 +46,26 @@ a, a:visited {
     overflow-x: hidden;
 }
 .post {
-    width: 1097px;
+    width: 100%;
     border-style: solid;
     border-color: black;
     padding: 20px;
     margin: 10px;
+    
 }
+
+#collector_left.img_container {
+    left: 0%;
+    position: relative;
+    float: left;
+    width: 25%;
+}
+
+#right {
+    float: right;
+    width: 25%;
+}
+
 
 .img_container {
     position: relative;
@@ -60,7 +74,7 @@ a, a:visited {
     left: 10%;
 }
 
-img {
+.img_container_buldak img {
     width: 40%;
     margin: 10px;
     border-radius: 10px;
