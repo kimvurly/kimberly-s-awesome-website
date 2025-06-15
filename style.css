@@ -10,12 +10,12 @@ body {
 
 @font-face {
     font-family: phantom_sans;
-    src: url(phantom_sans.ttf)
+    src: url(fonts/phantom_sans.ttf)
 }
 
 @font-face {
     font-family: genty_sans;
-    src: url(genty_sans.ttf)
+    src: url(fonts/genty_sans.ttf)
 }
 
 .row:after{
