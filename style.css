@@ -46,39 +46,73 @@ a, a:visited {
     overflow-x: hidden;
 }
 .post {
-    width: 100%;
+    width: 98%;
     border-style: solid;
     border-color: black;
     padding: 20px;
     margin: 10px;
-    
-}
-
-#collector_left.img_container {
-    left: 0%;
+    overflow: auto;
     position: relative;
-    float: left;
-    width: 25%;
 }
 
-#right {
-    float: right;
-    width: 25%;
-}
-
-
-.img_container {
+.img_container_buldak {
     position: relative;
     width: 100%;
     height: fit-content;
-    left: 10%;
 }
 
 .img_container_buldak img {
-    width: 40%;
+    width: 31%;
     margin: 10px;
     border-radius: 10px;
     border-style: solid;
+}
+
+#album_cover.img_container {
+    position: relative;
+    float: left;
+    width: 20%;
+    margin: 10px;
+    margin-top: 0;
+}
+
+#album_cover.img_container img {
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#collector_left.img_container {
+    position: relative;
+    float: left;
+    width: 24%;
+    margin: 10px;
+    margin-top: 0;
+}
+
+#collector_left.img_container img {
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    object-fit: contain;
+}
+
+#collector_right.img_container {
+    position: relative;
+    float: right;
+    width: 28%;
+    margin: 10px;
+    margin-top: 0;
+}
+
+#collector_right.img_container img {
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#textbook_heading {
+    margin-top: 20px;
 }
 
 .box {
