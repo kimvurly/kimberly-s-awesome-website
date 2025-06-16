@@ -104,6 +104,9 @@ img {
     height: fit-content;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .img_container_buldak img {
@@ -118,10 +121,12 @@ img {
 #album_covers.img_container {
     position: relative;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #album_covers.img_container img {
-    width: 31%;
+    width: 30%;
     margin: 10px;
     border-radius: 10px;
     border-style: solid;
@@ -293,6 +298,14 @@ iframe{
         left: 0;
         position: relative;
         overflow: hidden;
+    }
+
+    #collector_left.img_container {
+        width: 40%;
+    }
+
+    #collector_right.img_container {
+        width: 40%;
     }
 }
 
