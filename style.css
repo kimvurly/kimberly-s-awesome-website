@@ -85,13 +85,14 @@ img {
 }
 
 .post {
-    width: 98%;
+    width: 100%;
     border-style: solid;
     border-color: #d5e4c1;
     border-width: 5px;
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
+    margin-left: 0;
     overflow: auto;
     position: relative;
     background-color: #fffdf4;
@@ -199,6 +200,7 @@ img {
 
 .table_of_contents h2{
     float: left;
+    white-space: nowrap;
 }
 
 .table_of_contents p, li{
@@ -223,6 +225,8 @@ img {
     padding: 0;
     background-color:unset;
     float: left;
+    white-space: nowrap;
+    margin-left: 10;
 }
 
 .box p, li {
@@ -289,5 +293,23 @@ iframe{
         left: 0;
         position: relative;
         overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1290px) and (min-width: 1061px){
+    .right {
+        width: 75%;
+        left: 25%;
+    }
+    .left {
+        width: 25%;
+    }
+
+    .logo {
+        width: 78%;
+    }
+
+    .box .img_container {
+        width: 66%;
     }
 }
