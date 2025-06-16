@@ -101,6 +101,8 @@ img {
     position: relative;
     width: 100%;
     height: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .img_container_buldak img {
@@ -108,7 +110,9 @@ img {
     margin: 10px;
 }
 
-
+.music_list {
+    overflow: hidden;
+}
 
 #album_covers.img_container {
     position: relative;
@@ -129,6 +133,10 @@ img {
     margin: 10px;
     margin-top: 0;
     display: block;
+}
+
+.text_below_image_left {
+    clear: left;
 }
 
 #album_cover.img_container img {
@@ -156,7 +164,7 @@ img {
 #collector_right.img_container {
     position: relative;
     float: right;
-    width: 28%;
+    width: 23%;
     margin: 10px;
     margin-top: 0px;
 }
@@ -189,6 +197,15 @@ img {
     border-width: 5px;
 }
 
+.table_of_contents h2{
+    float: left;
+}
+
+.table_of_contents p, li{
+    clear: left;
+    overflow: inherit;
+}
+
 .box {
     background-color: #fffdf4;
     width: 100%;
@@ -205,11 +222,12 @@ img {
 .box h1 {
     padding: 0;
     background-color:unset;
-
+    float: left;
 }
 
-.box p {
+.box p, li {
     padding: 0px;
+    clear: left;
 }
 
 .box .img_container img {
@@ -239,4 +257,37 @@ img {
 iframe{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1060px){
+    .left {
+        display: block;
+        float: left;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        background-color: #ebf8ff;
+        z-index: 10;
+    }
+
+    .logo {
+        width: 30%;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .box {
+        display: none;
+    }
+
+    .table_of_contents {
+        display: none;
+    }
+    .right {
+        padding-top: 0;
+        width: 100%;
+        left: 0;
+        position: relative;
+        overflow: hidden;
+    }
 }
