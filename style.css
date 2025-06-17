@@ -268,6 +268,52 @@ iframe{
     margin-bottom: 10px;
 }
 
+#cinnamoroll.img_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#cinnamoroll.img_container img{
+    width: 31%;
+    margin: 10px;
+}
+
+#proofs.img_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#proofs.img_container img {
+    width: 70%;
+}
+
+#textbooks.img_container {
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+#textbooks.img_container img {
+    display: relative;
+    width: 100%;
+}
+
+#math_problems.img_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#math_problems.img_container img {
+    width: 45%;
+    align-self: center;
+    margin: 10px;
+}
+
 
 @media screen and (max-width: 1060px){
     .left {
