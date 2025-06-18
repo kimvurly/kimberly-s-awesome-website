@@ -24,12 +24,12 @@ body {
     clear: both;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     margin: 10px;
     font-weight: normal;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #fcb4c2;
     text-shadow: 4px 0 white, -4px 0 white, 0 4px white, 0 -4px white, 4px 4px white, -4px -4px white, -4px 4px white, 4px -4px white;
 }
