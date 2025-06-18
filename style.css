@@ -37,10 +37,11 @@ h1, h2 {
 p, li, a {
     color: #736c64;
     font-family: phantom_sans;
+    text-decoration: none;
 }
 
-a, a:visited {
-    text-decoration: none;
+a, a:active {
+    color: #fcb4c2;
 }
 
 img {
@@ -203,14 +204,18 @@ img {
     border-width: 5px;
 }
 
-.table_of_contents h2{
+.table_of_contents h2 {
     float: left;
     white-space: nowrap;
 }
 
-.table_of_contents p, li{
+.table_of_contents p, li {
     clear: left;
     overflow: inherit;
+}
+
+.table_of_contents a {
+    color: #736c64;
 }
 
 .box {
