@@ -319,6 +319,29 @@ iframe{
     margin: 10px;
 }
 
+#coding.img_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#coding.img_container img{
+    width: 70%;
+}
+
+#farmerettes.img_container {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#farmerettes.img_container img{
+    width: 45%;
+    margin: 10px;
+    
+}
+
+
 
 @media screen and (max-width: 1060px){
     .left {
