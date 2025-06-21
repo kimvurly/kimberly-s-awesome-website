@@ -1,4 +1,4 @@
-<h1>Who is Kimberly?? Website</h1>
+<h1>Who is Kimberly??</h1>
 I sure do wonder!!!
 <br>
 <br>
